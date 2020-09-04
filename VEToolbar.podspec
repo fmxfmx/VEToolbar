@@ -25,16 +25,16 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fmxfmx' => 'fengmingxiao320@163.com' }
-  s.source           = { :git => 'https://github.com/fmxfmx/VEToolbar.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:fmxfmx/VEToolbar.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'VEToolbar/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'VEToolbar' => ['VEToolbar/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'VEToolbar' => ['VEToolbar/Assets/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
